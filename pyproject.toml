@@ -1,0 +1,22 @@
+# ============================
+# Project Metadata
+# ============================
+# Basic Information
+[project]
+name = "AI-Agentic-System"
+version = "1.0.0"
+description = "A production-grade AI agentic system."
+authors = [
+    {name="Amin Tariq", email="amint2k22@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+license = { file = "LICENSE"}
+keywords = ["ai agentic system", "chatbot", "agent"]
+dependencies = [
+    "pydantic-settings>=2.14.2",
+    "python-dotenv>=1.2.2",
+]
+
+[project.urls]
+Repository = "https://github.com/AminTariq/ai-agentic-system"
